@@ -88,7 +88,7 @@ function AccessCodeSection({ settings, setSettings }: Props) {
       <Input
         id="access-code"
         className="border-gray-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white"
-        placeholder="Enter your Screenshot to Code access code"
+        placeholder="Enter your VationX AI Web Generator access code"
         value={settings.accessCode || ""}
         onChange={(e) =>
           setSettings((s) => ({

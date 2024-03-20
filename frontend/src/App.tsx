@@ -39,6 +39,8 @@ import { CodeGenerationModel } from "./lib/models";
 import ModelSettingsSection from "./components/ModelSettingsSection";
 import { extractHtml } from "./components/preview/extractHtml";
 import useBrowserTabIndicator from "./hooks/useBrowserTabIndicator";
+import vationxIcon from './vationx_icon.png'; // Adjust the path as necessary
+
 
 const IS_OPENAI_DOWN = false;
 
@@ -352,7 +354,8 @@ function App() {
       <div className="lg:fixed lg:inset-y-0 lg:z-40 lg:flex lg:w-96 lg:flex-col">
         <div className="flex grow flex-col gap-y-2 overflow-y-auto border-r border-gray-200 bg-white px-6 dark:bg-zinc-950 dark:text-white">
           <div className="flex items-center justify-between mt-10 mb-2">
-            <h1 className="text-2xl ">Screenshot to Code</h1>
+            <img src={vationxIcon} alt="Icon" className="mr-2" style={{ width: '40px', height: '40px' }} /> {/* PNG icon */}
+            <h1 className="text-2xl ">VationX AI Web Generator</h1>
             <SettingsDialog settings={settings} setSettings={setSettings} />
           </div>
 

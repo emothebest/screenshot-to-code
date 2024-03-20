@@ -5,7 +5,7 @@ const CODING_SETTINGS = {
   favicon: "/favicon/coding.png",
 };
 const DEFAULT_SETTINGS = {
-  title: "Screenshot to Code",
+  title: "VationX AI Web Generator",
   favicon: "/favicon/main.png",
 };
 
